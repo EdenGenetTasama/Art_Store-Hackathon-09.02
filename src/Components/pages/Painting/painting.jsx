@@ -1,7 +1,9 @@
 const Painting=()=>{
 
     return(<div>
-<h>Painting</h>
+
+  <h1>shimon</h1>
+
     </div>)
 }
 
