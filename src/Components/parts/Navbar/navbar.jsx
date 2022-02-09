@@ -1,16 +1,5 @@
 import {Link} from "react-router-dom";
 
-
-// const Navbar=()=>{
-//     return(
-//     <div>
-//         <Link to="/"><button>Home</button></Link>
-//     </div>
-// )
-// }
-
-
-
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
@@ -77,20 +66,23 @@ const Navbar=()=> {
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
     
     const handleProfileMenuOpen = (event) => {
-        setAnchorEl(event.currentTarget);
+        setAnchorEl(event.currentTarget);// click profile menu
+        
     };
     
     const handleMobileMenuClose = () => {
-        setMobileMoreAnchorEl(null);
+        setMobileMoreAnchorEl(null); // close click profile
+
     };
 
   const handleMenuClose = () => {
       setAnchorEl(null);
-      handleMobileMenuClose();
+      handleMobileMenuClose(); // close click profile
+
     };
     
     const handleMobileMenuOpen = (event) => {
-        setMobileMoreAnchorEl(event.currentTarget);
+        setMobileMoreAnchorEl(event.currentTarget); // open click profile menu
     };
     
     const menuId = 'primary-search-account-menu';
@@ -169,7 +161,7 @@ const Navbar=()=> {
   
   return (
       <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color={"transparent"}>
         <Toolbar>
           <IconButton
             size="large"
@@ -197,6 +189,7 @@ const Navbar=()=> {
               inputProps={{ 'aria-label': 'search' }}
               />
           </Search>
+          <Link to="/"><button>Home</button></Link>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="inherit">
@@ -244,5 +237,7 @@ const Navbar=()=> {
     </Box>
   );
 }
+
+
 
 export default Navbar;
