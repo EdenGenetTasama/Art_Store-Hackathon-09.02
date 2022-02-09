@@ -1,0 +1,16 @@
+.divOfImages{
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageClass{
+    width: 30%;
+    height: 60vh;
+    transition: transform .2s;
+    
+}
+
+.imageClass:hover {
+    transform: scale(1.1); 
+  }
