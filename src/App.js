@@ -7,7 +7,7 @@ import GetAllData from './Components/checkalldata';
 function App() {
   return (
     <div className="App">
-
+<Router/>
     </div>
   );
 }
