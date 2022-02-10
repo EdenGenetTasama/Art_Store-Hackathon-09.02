@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import  Router  from './Router';
-import SculpturesProvider from './Context/sculptures-context';
-import GetAllData from './Components/checkalldata';
+import logo from "./logo.svg";
+import "./App.css";
+import Router from "./Router";
+import SculpturesProvider from "./Context/sculptures-context";
+import GetAllData from "./Components/checkalldata";
 
 function App() {
   return (
