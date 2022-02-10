@@ -22,6 +22,7 @@
     height: 80px;
     width: 100%;
     transition: 0.5s ease;
+    /* background-color: antiquewhite; */
   }
   
   .navbar .nav {
@@ -36,11 +37,19 @@
     list-style: none;
     display: inline-block;
     font-size: 18px;
-    padding: 5px;
+    padding: 6px;
     font-weight: 300;
     line-height: 80px;
     margin-right: 20px;
     transition: 0.5s ease;
+    /* font-weight: bold; */
+    font-size: 30px;
+    font-family: 'Averia Serif Libre', cursive;
+  }
+  .navbar .nav .item:hover{
+   border-bottom: 2px solid white;
+   opacity: 0.8;
+   background-color: antiquewhite;
   }
   
   .navbar .nav .item .contact {
@@ -64,7 +73,7 @@
     width: 100px;
     height:100px;
     transition: 0.5s ease;
-    margin-top: 2%;
+    margin-top: 1.3%;
   }
 
   

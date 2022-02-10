@@ -5,7 +5,7 @@ const Sculpture = () => {
   return (
     <div>
       <SculpturesProvider>
-      <h1>Sculpture</h1>
+      <h1 className="headerCards">Sculpture</h1>
      <SculptureCards />
       </SculpturesProvider>
     </div>

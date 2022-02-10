@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { paintingContext } from "../../../Context/painting-context";
-import "./PopUp.css"
+import "./PopUp.css";
+
 function PaintingPopUp(props){
 return(
     <div className="popup-box">
