@@ -2,3 +2,8 @@
     width: 99vw;
     height: 70vh;
 }
+
+.HeaderLine{
+    font-family: 'Henny Penny', cursive;
+    font-size: 55px;
+}
