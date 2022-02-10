@@ -2,10 +2,13 @@ import "./firstImageSection.css";
 
 const FirstImageSection=()=>{
 
-    return(<div>
-        <h1 className="HeaderLine">Welcome ☺ </h1>
-        <img src="https://cdn.pixabay.com/photo/2017/09/12/11/56/universe-2742113_960_720.jpg" alt="spaceImage" className="homeImage"/>
-    </div>)
+    return(
+    <div className="hero-image">
+    <div className="hero-text">
+      <h1>ESE</h1>
+    </div>
+    
+  </div>)
 }
 
 export default FirstImageSection;
