@@ -7,7 +7,7 @@ const Drawing = () => {
   return (
     <div>
       <DrawingProvider>
-      <h1>Drawing</h1>
+      <h1 className="headerCards">Drawing</h1>
       <DrawingCards/>
       </DrawingProvider>
     </div>

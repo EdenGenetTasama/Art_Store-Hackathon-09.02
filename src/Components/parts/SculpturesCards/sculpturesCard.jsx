@@ -6,13 +6,35 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import "./sculptures.css";
+import {useState} from "react";
+import PaintingPopUp from "../PopUp/PaintingPopUP";
 
 const SculptureCard=({item})=> {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  }
   return (
+    <>
+    {isOpen && <PaintingPopUp
+      content={
+        <article className='PopUpCard' >
+        <img src={item.image}/>
+        <div>
+        <h1>{item.Name}</h1>
+     
+        <h1>{item.Creator}</h1>
+        <p>{item.Description}</p>
+       
+        </div>
+      </article>}
+      handleClose={togglePopup}
+    />}
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        height="210"
+        height="300"
         image={item.image}
         alt="green iguana"
       />
@@ -26,10 +48,10 @@ const SculptureCard=({item})=> {
       </CardContent>
       <CardActions>
         <Button size="small">Add</Button>
-        <Button size="small">Detail</Button>
+        <Button size="small" onClick={togglePopup}>Detail</Button>
       </CardActions>
     </Card>
-
+    </>
   );
 }
 

@@ -8,7 +8,6 @@
 
 .DivOfAllHTML {
     overflow: scroll;
-
 }
 
 .oneCardStyle {
@@ -23,4 +22,10 @@
 
 .NameSpan{
     
+}
+
+
+.headerCards{
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 60px;
 }

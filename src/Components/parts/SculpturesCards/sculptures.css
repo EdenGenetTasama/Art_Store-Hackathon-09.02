@@ -16,7 +16,10 @@
     height: 33%;
     padding: 1%;
 }
-
+.headerCards{
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 60px;
+}
 .PriceSpan{
     
 }
