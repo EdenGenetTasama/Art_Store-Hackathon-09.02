@@ -1,8 +1,15 @@
-const Photography=()=>{
+import PhotosProvider from "../../../Context/photography-context";
+import PhotographyCards from "../../parts/PhotographyCards/photographyCards";
 
-    return(<div>
-<h>Photography</h>
-    </div>)
-}
+const Photography = () => {
+  return (
+    <div>
+      <PhotosProvider>
+        <h1>Photography</h1>
+        <PhotographyCards/>
+      </PhotosProvider>
+    </div>
+  );
+};
 
 export default Photography;

@@ -21,6 +21,10 @@ const Navbar = () => {
 
             <Link to="/photography">Photography</Link>
           </li>
+
+          <li className="item">
+            <Link to="/drawing">Drawing</Link>
+          </li>
         </ul>
 
         <div className="logo">

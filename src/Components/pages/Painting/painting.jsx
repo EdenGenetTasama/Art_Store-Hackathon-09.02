@@ -6,7 +6,7 @@ const Painting = () => {
   return (
     <div>
       <PaintingsProvider>
-        <h1>shimon</h1>
+        <h1>Painting</h1>
       <PaintingCards/>
       </PaintingsProvider>
     </div>
