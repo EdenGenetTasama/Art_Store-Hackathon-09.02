@@ -2,7 +2,6 @@ import {useContext} from "react";
 import {paintingContext} from "../../../Context/painting-context";
 import PaintingCard from "./paintingCard";
 import "./printingCard.css";
-
 const PaintingCards  = () => {
     const { paintingsData} = useContext(paintingContext);
 
