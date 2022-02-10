@@ -3,6 +3,7 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
+
       <div className="navbar">
         <ul className="nav">
           <li className="item">
@@ -17,6 +18,7 @@ const Navbar = () => {
           </li>
 
           <li className="item">
+
             <Link to="/photography">Photography</Link>
           </li>
 
@@ -27,6 +29,7 @@ const Navbar = () => {
 
         <div className="logo">
           <i className="fa fa-users fa-2x" aria-hidden="true"></i>
+
         </div>
       </div>
   );
