@@ -4,7 +4,7 @@ import { getAllDrawing } from "../Services/Drawing/drawing-services";
 
 export let drawingContext = React.createContext();
 
-export default function drawingProvider ({children}) {
+export default function DrawingProvider ({children}) {
     let [drawingData , setDrawingData ] = useState([]);
     useEffect(() => {
         getAllDrawing()

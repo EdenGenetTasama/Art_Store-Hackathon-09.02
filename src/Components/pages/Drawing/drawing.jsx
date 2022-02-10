@@ -1,7 +1,15 @@
+import DrawingProvider from "../../../Context/drawing-context";
+import DrawingCards from "../../parts/DrawingCards/drawingCards";
+
+
+
 const Drawing = () => {
   return (
     <div>
-      <h1>shimon</h1>
+      <DrawingProvider>
+      <h1>Drawing</h1>
+      <DrawingCards/>
+      </DrawingProvider>
     </div>
   );
 };

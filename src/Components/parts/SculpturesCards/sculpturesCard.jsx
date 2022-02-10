@@ -5,15 +5,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import "./printingCard.css"
+import "./sculptures.css";
 
-const PaintingCard=({item})=> {
+const SculptureCard=({item})=> {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         height="210"
-        image={item.Image}
+        image={item.image}
         alt="green iguana"
       />
       <CardContent>
@@ -33,4 +33,4 @@ const PaintingCard=({item})=> {
   );
 }
 
-export default PaintingCard;
+export default SculptureCard;
