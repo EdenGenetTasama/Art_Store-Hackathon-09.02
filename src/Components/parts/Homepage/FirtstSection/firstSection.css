@@ -1,16 +1,24 @@
 .divOfImages{
-    width: 99vw;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .imageClass{
-    width: 30%;
+    width: 28%;
     height: 60vh;
     transition: transform .2s;
+    padding: 2%;
     
 }
 
 .imageClass:hover {
     transform: scale(1.1); 
+  }
+
+  @media screen and (min-device-width:10px) and (max-device-width:420px){
+    .imageClass{
+        width: 28%;
+        height: 30vh;
+    }
   }

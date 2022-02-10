@@ -193,7 +193,7 @@ const Navbar = () => {
           </Search>
 
           <Link to="/">
-            <button>Home</button>
+            <button class="btn btn-link">Home</button>
           </Link>
 
           <Link to="/painting">
