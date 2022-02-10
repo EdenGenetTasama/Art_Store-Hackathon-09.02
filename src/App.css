@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  ;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/abstract-wallpaper-20071915230327.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .App-logo {

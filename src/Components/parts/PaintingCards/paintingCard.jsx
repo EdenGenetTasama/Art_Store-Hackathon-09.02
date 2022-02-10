@@ -35,7 +35,7 @@ const PaintingCard=({item})=> {
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        height="210"
+        height="300"
         image={item.Image}
         alt="green iguana"
       />
@@ -49,7 +49,7 @@ const PaintingCard=({item})=> {
       </CardContent>
       <CardActions>
         <Button size="small">Share</Button>
-        <Button size="small"onClick={togglePopup}>Learn More</Button>
+        <Button size="small" onClick={togglePopup}>Detail</Button>
       </CardActions>
     </Card>
 </>

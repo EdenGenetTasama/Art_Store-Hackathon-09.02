@@ -5,7 +5,7 @@ const Photography = () => {
   return (
     <div>
       <PhotosProvider>
-        <h1>Photography</h1>
+        <h1 className="headerCards">Photography</h1>
         <PhotographyCards/>
       </PhotosProvider>
     </div>
