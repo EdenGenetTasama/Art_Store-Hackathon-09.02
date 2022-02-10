@@ -1,17 +1,4 @@
-*{
-    box-sizing: border-box;
-  }
-  
-  body {
-    position: absolute;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    padding-top: 80px;
-    height: 1900px;
-  }
-  
+
   header {
     position: fixed;
     top: 0;
@@ -74,17 +61,12 @@
   .navbar .logo {
     float: left;
     display: inline-block;
-    margin-top: 5px;
-    margin-left: 5%;
-    width: 70px;
-    height: 70px;
-    background-color: firebrick;
+    width: 100px;
+    height:100px;
     transition: 0.5s ease;
+    margin-top: 2%;
   }
-  
-  .navbar .logo img {
-    display: none;
-  }
+
   
   .scrolled {
    transition: 0.5s ease;
@@ -123,3 +105,4 @@
     background-color: firebrick;
     transition: 0.5s ease;
   }
+
