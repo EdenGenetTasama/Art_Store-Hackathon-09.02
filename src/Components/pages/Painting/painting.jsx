@@ -1,10 +1,16 @@
-const Painting=()=>{
+import PaintingsProvider from "../../../Context/painting-context";
+import PaintingCards from "../../parts/PaintingCards/paintingCards";
 
-    return(<div>
 
-  <h1>shimon</h1>
-
-    </div>)
-}
+const Painting = () => {
+  return (
+    <div>
+      <PaintingsProvider>
+        <h1>shimon</h1>
+      <PaintingCards/>
+      </PaintingsProvider>
+    </div>
+  );
+};
 
 export default Painting;

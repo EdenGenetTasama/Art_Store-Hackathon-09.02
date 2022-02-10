@@ -3,26 +3,26 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-      <div class="navbar">
-        <ul class="nav">
-          <li class="item">
+      <div className="navbar">
+        <ul className="nav">
+          <li className="item">
             <Link to="/">Home</Link>
           </li>
-          <li class="item">
+          <li className="item">
             <Link to="/painting">Painting</Link>
           </li>
 
-          <li class="item">
+          <li className="item">
             <Link to="/sculpture">Sculpture</Link>
           </li>
 
-          <li class="item">
+          <li className="item">
             <Link to="/photography">Photography</Link>
           </li>
         </ul>
 
-        <div class="logo">
-          <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+        <div className="logo">
+          <i className="fa fa-users fa-2x" aria-hidden="true"></i>
         </div>
       </div>
   );
