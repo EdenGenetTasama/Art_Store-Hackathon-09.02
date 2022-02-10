@@ -15,6 +15,10 @@
 .imageClass:hover {
     transform: scale(1.1); 
   }
+  .headerCards{
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 60px;
+}
 
   @media screen and (min-device-width:10px) and (max-device-width:420px){
     .imageClass{
